@@ -18,7 +18,7 @@ def end_progress():
     sys.stdout.write("#" * (40 - progress_x) + "]\n")
     sys.stdout.flush()
 
-start_progress("peen")
+start_progress("test")
 
 for num in range(100):
     progress(num)
